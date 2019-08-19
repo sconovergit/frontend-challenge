@@ -27,9 +27,12 @@ li{
   background-color: #d3d3d3;
 }
 li p{
+  display: inline-block;
   float:right;
+  
 }
 li h3{
+  display:inline-block;
   font-size: 1.5em;
   padding-top: 4%;
 }
