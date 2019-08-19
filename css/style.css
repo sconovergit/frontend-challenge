@@ -1,0 +1,35 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.container{
+  width:100%;
+}
+.stoptitle{
+  padding:20px;
+  font-size: 1.5em;
+  text-align:center;
+  width:100%;
+}
+.arrow{
+  float:left;
+}
+.userpic{
+  float:right;
+}
+li img{
+  float: left;
+  padding:4%;
+}
+li{
+  display:inline-block;
+  width:100%;
+  border-bottom: 1px solid grey;
+  background-color: #d3d3d3;
+}
+li p{
+  float:right;
+}
+li h3{
+  font-size: 1.5em;
+  padding-top: 4%;
+}
