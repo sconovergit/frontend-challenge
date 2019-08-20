@@ -4,35 +4,66 @@
 .container{
   width:100%;
 }
+/*setting the font-size to 16px and the font-family to roboto for everything*/
+body{
+  font-size:16px;
+  font-family:'Roboto', sans-serif;
+}
+/*makes everything inline-block*/
+.stoptitle, .stoptitle p, .arrow, .userpic, li, li p, li h3{
+  display:inline-block;
+}
+/*styling the entire menu bar*/
 .stoptitle{
-  padding:20px;
   font-size: 1.5em;
   text-align:center;
   width:100%;
+  padding: 4%;
 }
+.stoptitle p{
+  padding:2%;
+}
+/*making the arrow float left*/
 .arrow{
   float:left;
+  padding:2%;
 }
+/*making the user picture float to the right of the title*/
 .userpic{
   float:right;
+  padding:2%;
 }
+/*aligns all the numbers the same way*/
 li img{
   float: left;
-  padding:4%;
+  padding:6%;
 }
+/*makes sure each list item takes up the full width, so they stack on top of
+one another and adding the line on the bottom of each li */
 li{
-  display:inline-block;
   width:100%;
-  border-bottom: 1px solid grey;
-  background-color: #d3d3d3;
+  border-bottom: 0.5px solid #8c8c8c;
 }
+/*properly spacing the eta and location to be even with the line number*/
 li p{
-  display: inline-block;
   float:right;
-  
+  padding-top: 4%;
+  padding-right: 4%;
+  line-height: 1.5em;
+  text-align:right;
+  font-weight: 100;
 }
 li h3{
-  display:inline-block;
   font-size: 1.5em;
-  padding-top: 4%;
+  padding-top: 6%;
+  font-weight:300;
+}
+.chevron{
+  float:right;
+  padding-top:6%;
+}
+/*pushing the 2 menus without numbers to be even with the rest of the h3's*/
+.unavailable{
+  padding-left: 18%;
+  padding-bottom: 6%;
 }
