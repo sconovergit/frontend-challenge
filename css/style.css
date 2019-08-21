@@ -31,7 +31,8 @@ body{
 /*making the user picture float to the right of the title*/
 .userpic{
   float:right;
-  padding:2%;
+  padding-top:1.5%;
+  padding-right:2%;
 }
 /*aligns all the numbers the same way*/
 li img{
