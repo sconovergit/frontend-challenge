@@ -59,12 +59,3 @@ li h3{
   padding-top: 6%;
   font-weight:300;
 }
-.chevron{
-  float:right;
-  padding-top:6%;
-}
-/*pushing the 2 menus without numbers to be even with the rest of the h3's*/
-.unavailable{
-  padding-left: 18%;
-  padding-bottom: 6%;
-}
